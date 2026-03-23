@@ -1,7 +1,7 @@
 # CHICAGO TRAFFIC ACCIDENTS DATA PROJECT
 This project is focused on developing business logic on accidents or roadway crashes in the City of Chicago and data has been extracted from the https://data.cityofchicago.org/
 
-Follow this link to get access to all 3 dataset
+Follow this link to get access to all 3 datasets
 - https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data
 
 
