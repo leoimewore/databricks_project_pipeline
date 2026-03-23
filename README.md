@@ -12,7 +12,32 @@ Focus of this projects was to develop Data LakeHouse consisting of an Ingestion 
 
 
 ### Data LakeHouse Architecture 
+![image_1774226924838.png](./image_1774226924838.png "image_1774226924838.png")
 
-![image_1774216839644.png](./image_1774216839644.png "image_1774216839644.png")
+
+### Tools
+- Databricks Community Edition : Delta Tables and storage was to build lakehouse 
+- Apache Spark : Used for data transformation, normalisation and cleaning
+- SQL : Build business logic tables for visualization
+
+
+### Data Pipeline
+
+Automated my implementation of my notebooks with the Job and Pipelines feature of the Databricks 
+
+![image_1774228314059.png](./image_1774228314059.png "image_1774228314059.png")
+
+
+### Data Visualization
+
+- From the dim_crashes_location data- I applied aggregrated latitude and longitude data to develop a heat map for hot spots of accidents in the city. Locations like River North and the Loop show accident counts of 10k-15k
+
+![image_1774228966504.png](./image_1774228966504.png "image_1774228966504.png")
+
+
+
+
+
+
 
 
