@@ -5,9 +5,9 @@ Follow this link to get access to all 3 datasets
 - https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data
 
 
-Focus of this projects was to develop Data LakeHouse consisting of an Ingestion Layer, Storage Layer and Consumption Layer to provide advantages like the following:
+The focus of this project was to develop Data LakeHouse consisting of an Ingestion Layer, Storage Layer, and Consumption Layer to provide advantages like the following:
 - Real Time analytics 
-- Eliminate the use of multiple platform
+- Eliminate the use of multiple platforms
 - Leverage the benefits of datalakes and data warehouses
 
 
