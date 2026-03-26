@@ -30,6 +30,14 @@ Automated my implementation of my notebooks with the Job and Pipelines feature o
 
 ### Star Schema Implementation
 
+For this project I modeled the data by implementing  star schema consisting 
+- Crash_fact_table  ---> Transactional Fact Table
+  - location Dim table
+  - dates Dim Table
+  - Weather Dim Condition
+- Vehicle fact table ---> Factless Fact table
+- Persons fact table ---> Factless Fact table 
+
 ![image_1774560550340.png](./image_1774560550340.png "image_1774560550340.png")
 
 
