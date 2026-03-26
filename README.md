@@ -1,3 +1,9 @@
+# Problem Statement
+City crash data is often stored in raw, inconsistent formats, making it difficult to analyze trends such as injury severity, vehicle involvement, and demographic impact.
+This project builds a scalable data pipeline to ingest, transform, and model crash data into an analytics-ready format.
+
+
+
 # CHICAGO TRAFFIC ACCIDENTS DATA PROJECT
 This project is focused on developing business logic on accidents or roadway crashes in the City of Chicago and data has been extracted from the https://data.cityofchicago.org/
 
@@ -28,15 +34,21 @@ Automated my implementation of my notebooks with the Job and Pipelines feature o
 ![image_1774228314059.png](./image_1774228314059.png "image_1774228314059.png")
 
 
+# Data Quality Checks
+- Ensured no null crash_id
+- Validated age > 0
+- Removed duplicate records (person_id + crash_id) 
+
+
 ### Star Schema Implementation
 
 For this project I modeled the data by implementing  star schema consisting 
-- Crash_fact_table  ---> Transactional Fact Table
+- Crash_fact_table  ---> Transactional Fact Table crash level data
   - location Dim table
   - dates Dim Table
   - Weather Dim Condition
-- Vehicle fact table ---> Factless Fact table
-- Persons fact table ---> Factless Fact table 
+- Vehicle fact table ---> Factless Fact table vehicle-level data
+- Persons fact table ---> Factless Fact table person-level data
 
 ![image_1774560550340.png](./image_1774560550340.png "image_1774560550340.png")
 
@@ -47,6 +59,11 @@ For this project I modeled the data by implementing  star schema consisting
 
 ![image_1774228966504.png](./image_1774228966504.png "image_1774228966504.png")
 
+
+# Challenges and Solutions
+Issue: Timestamp Parsing Errors
+- Encountered malformed timestamp values
+- Solution: Used safe casting (try_cast) and format standardization
 
 
 
