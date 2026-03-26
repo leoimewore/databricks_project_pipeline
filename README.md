@@ -28,11 +28,18 @@ Automated my implementation of my notebooks with the Job and Pipelines feature o
 ![image_1774228314059.png](./image_1774228314059.png "image_1774228314059.png")
 
 
+### Star Schema Implementation
+
+![image_1774560550340.png](./image_1774560550340.png "image_1774560550340.png")
+
+
 ### Data Visualization
 
 - From the dim_crashes_location data- I applied aggregrated latitude and longitude data to develop a heat map for hot spots of accidents in the city. Locations like River North and the Loop show accident counts of 10k-15k
 
 ![image_1774228966504.png](./image_1774228966504.png "image_1774228966504.png")
+
+
 
 
 
