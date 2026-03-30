@@ -17,14 +17,19 @@ The focus of this project was to develop Data LakeHouse consisting of an Ingesti
 - Leverage the benefits of datalakes and data warehouses
 
 
-### Data LakeHouse Architecture 
+### Delta LakeHouse Architecture 
+- storage flexibility of a data lake (ADLS in your case)
+- structure and performance of a data warehouse
+- transaction guarantees of Delta Lake
 ![image_1774226924838.png](./image_1774226924838.png "image_1774226924838.png")
 
 
 ### Tools
-- Databricks Community Edition : Delta Tables and storage was to build lakehouse 
+- Azure Databricks : Delta Tables and storage was to build lakehouse 
 - Apache Spark : Used for data transformation, normalisation and cleaning
 - SQL : Build business logic tables for visualization
+- ADLS - Azure DataLake Storage
+
 
 
 ### Data Pipeline
