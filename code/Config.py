@@ -16,3 +16,19 @@ data = [
   }
 ]
 
+Data =[
+  {
+    "url_path": "85ca-t3if",
+    "delta_path": "crashes"  },
+  
+  {
+    "url_path": "u6pd-qa9d",
+    "delta_path": "persons"
+  },
+  
+  {
+    "url_path": "68nd-jvt3",
+    "delta_path": "vehicles"
+  }
+]
+
